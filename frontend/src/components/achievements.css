@@ -1,0 +1,19 @@
+.chart-container {
+    padding-top: 50px;
+}
+
+.chart-canvas {
+    width: 500px;
+    height: 800px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,36 @@
+.ya-navbar-container {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+
+    .ya-navbar {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 20px;
+
+
+        .ya-navbar-brand {
+            font-size: 20px;
+            font-weight: 500;
+            margin-right: auto;
+        }
+
+        .ya-navbar-item {
+            font-weight: 500;
+            color: rgb(116, 112, 112);
+
+            &.selected {
+                border-bottom: 2px solid rgb(116, 112, 112);
+                margin-top: 2px;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,36 @@
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.search-bar {
+    max-width: 300px;
+    /* Adjust the maximum width as desired */
+    width: 100%;
+}
+
+
+.main {
+
+    height: 1px;
+    width: 1000px;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+h1 {
+    margin: 2px;
+    font-size: 2px;
+    color: rgb(1, 1, 59);
+}
+
+.search {
+    width: 30%;
+}
+
+ul li {
+    font-size: 2px;
+}
